@@ -5,7 +5,7 @@ public class MonthWages {
 	public static final int IS_FULL_TIME= 2;
 	public static final int IS_PART_TIME= 1;
 	public static final int EMP_RATE_PER_HOUR=20;
-	public static final int NUM_OF_WORKING_DAYS = 2;
+	public static final int NUM_OF_WORKING_DAYS = 20;
 
 	public static void main(String[] args) {
 
@@ -27,7 +27,7 @@ public class MonthWages {
 			}	
 			empWage = empHrs * EMP_RATE_PER_HOUR;
 			totalEmpWage += empWage;
-			System.out.println("Employee wage : " + empWage);
+			System.out.println("for day"+ day +"  Employee wage : "+ empWage);
 		}
 		System.out.println("Total emp wage : " + totalEmpWage);
 
