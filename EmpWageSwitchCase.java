@@ -22,7 +22,7 @@ public class EmpWageSwitchCase {
 		default:
 			empHrs = 0;
 		}	
-		empWage = emphrs *EMP_RATE_PER_HOUR ;
+		empWage = empHrs *EMP_RATE_PER_HOUR ;
 		System.out.println("Employee wage : " + empWage);
 	}
 
